@@ -1,6 +1,6 @@
 {
   "name": "backpack-transpiled",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Transpiled version of Skyscanner's design system (Backpack)",
   "main": "index.js",
   "scripts": {

@@ -1,3 +1,5 @@
 # CHANGELOG
 
-Once this project is up and running, I'll do my best to highlight semver changes between releases here.
+## 0.0.1
+
+- Initial publish! Some things are not working, but `BpkButton` works!

@@ -4,8 +4,7 @@ node_modules
 stats.json
 /.pnp
 .pnp.js
-.gitmodules
-backpack/
+backpack
 
 # Cruft
 .DS_Store

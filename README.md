@@ -18,7 +18,19 @@ This is shipped as one big package - but modern code-splitting/tree-shaking tech
 
 For component documentation, see [https://backpack.github.io/](https://backpack.github.io/?utm_source=backpack_transpiled).
 
+### Using in a create-react-app
+
+TODO
+
+### Using in Next.js
+
+TODO
+
 ## Developing
+
+Do not add dependencies directly to the package.json. These are populated automagically during the backpack-pulling process by running `npm run pull-backpack:dependencies`.
+
+(Adding dev-dependencies is fine.)
 
 ### Prerequisites
 

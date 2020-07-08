@@ -4,10 +4,11 @@
   "description": "Transpiled version of Skyscanner's design system (Backpack)",
   "main": "index.js",
   "scripts": {
-    "pull-backpack": "npm run pull-backpack:clean && git clone git@github.com:Skyscanner/backpack && npm run pull-backpack:build && npm run pull-backpack:dependencies",
+    "pull-backpack": "npm run pull-backpack:clean && git clone git@github.com:Skyscanner/backpack && npm run pull-backpack-pull:changelog && npm run pull-backpack:dependencies && npm run pull-backpack:build",
     "pull-backpack:clean": "rimraf backpack",
-    "pull-backpack:build": "(cd backpack && npm ci && npm run build && find packages -name \"node_modules\" -exec rm -rf {} \\; || true)",
+    "pull-backpack:changelog": "cp ./backpack/CHANGELOG.md ./BACKPACK_CHANGELOG.md",
     "pull-backpack:dependencies": "babel-node scripts/pull-dependencies.js",
+    "pull-backpack:build": "(cd backpack && npm ci && npm run build && find packages -name \"node_modules\" -exec rm -rf {} \\; || true)",
     "prerelease": "npm run transpile",
     "release": "babel-node scripts/release.js",
     "release:major": "npm run release -- --major",

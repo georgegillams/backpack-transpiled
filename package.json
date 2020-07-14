@@ -14,11 +14,12 @@
     "release:major": "npm run release -- --major",
     "release:minor": "npm run release -- --minor",
     "release:patch": "npm run release -- --patch",
-    "transpile": "npm run transpile:js && npm run transform:js && npm run transform:hierarchy && npm run transpile:remove-stories",
+    "transpile": "npm run transpile:js && npm run transform:js && npm run transform:remove-bpk-no-touch && npm run transform:hierarchy && npm run transpile:remove-stories",
     "pretranspile": "npm run transpile:clean",
     "transpile:clean": "rimraf ./dist",
     "transpile:js": "babel backpack/packages -d dist --copy-files",
     "transform:js": "babel-node scripts/transform-js-scss-css-imports.js",
+    "transform:remove-bpk-no-touch": "babel-node scripts/remove-bpk-no-touch.js",
     "transform:hierarchy": "babel-node scripts/transform-bpk-package-imports.js",
     "transpile:remove-stories": "find ./dist -name \"stories.js\" -exec rm {} \\;",
     "test": "echo \"Error: no test specified\" && exit 1"

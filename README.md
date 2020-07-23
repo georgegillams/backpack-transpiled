@@ -12,7 +12,7 @@ Skyscanner's web components (for React) are published untranspiled. This is fine
 
 So this is a transpiled version of the components that uses vanilla JS and CSS.
 
-This is shipped as one big package - but modern code-splitting/tree-shaking techniques should mean that your bundle size is not adversely affected
+This is shipped as one big package - but modern tree-shaking techniques should mean that your bundle size is not adversely affected.
 
 ## Documentation
 

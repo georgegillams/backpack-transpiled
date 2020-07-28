@@ -75,7 +75,7 @@
   "dependencies": {
     "prop-types": "^15.6.2",
     "date-fns": "^1.29.0",
-    "normalize.css": "4.2.0",
+    "normalize.css": "8.0.1",
     "d3-path": "^1.0.5",
     "d3-scale": "^2.1.0",
     "lodash.debounce": "^4.0.8",

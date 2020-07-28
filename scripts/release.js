@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import { writeFileSync } from 'fs';
+import { readFileSync, writeFileSync } from 'fs';
 import { execSync } from 'child_process';
 
 import { inc } from 'semver';
@@ -25,6 +25,16 @@ const getBumpType = () => {
   return 'patch';
 };
 
+const revertDependencies = () => {
+  const mainPackageJson = JSON.parse(readFileSync('package.json'));
+  delete mainPackageJson.dependencies;
+  writeFileSync(
+    'package.json',
+    JSON.stringify(mainPackageJson, null, 2),
+    'utf-8',
+  );
+};
+
 const updatePackageFile = newVersion => {
   const newPackageData = JSON.parse(JSON.stringify(packageData));
   newPackageData.version = newVersion;
@@ -32,6 +42,7 @@ const updatePackageFile = newVersion => {
   writeFileSync('package.json', fileContent, 'utf8');
   execSync('cp package.json ./dist/');
   execSync('cp README.md ./dist/');
+  revertDependencies();
   console.log(blue('package.json updated'));
 };
 

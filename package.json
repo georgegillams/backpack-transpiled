@@ -79,7 +79,7 @@
     "d3-path": "^1.0.5",
     "d3-scale": "^2.1.0",
     "lodash.debounce": "^4.0.8",
-    "react-transition-group": "^2.5.3",
+    "react-transition-group": "^4.4.1",
     "lodash.clamp": "^4.0.3",
     "color": "^3.0.0",
     "@skyscanner/popper.js": "^1.12.9-beta.1",

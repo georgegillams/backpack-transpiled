@@ -71,7 +71,7 @@ const newVersion = inc(currentVersion, bumpType);
 console.log(`Publishing version ${newVersion}`);
 
 updatePackageFile(newVersion);
-createTag(newVersion);
 commitChanges(newVersion);
+createTag(newVersion);
 publishPackage();
 console.log('Done');

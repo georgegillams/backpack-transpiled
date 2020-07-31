@@ -4,7 +4,7 @@
   "description": "Transpiled version of Skyscanner's design system (Backpack)",
   "main": "index.js",
   "scripts": {
-    "pull-backpack": "npm run pull-backpack:clean && git clone git@github.com:Skyscanner/backpack && npm run pull-backpack:changelog && npm run pull-backpack:build",
+    "pull-backpack": "npm run pull-backpack:clean && git clone https://github.com/Skyscanner/backpack.git && npm run pull-backpack:changelog && npm run pull-backpack:build",
     "pull-backpack:clean": "rimraf backpack",
     "pull-backpack:changelog": "cp ./backpack/CHANGELOG.md ./BACKPACK_CHANGELOG.md",
     "pull-backpack:build": "(cd backpack && npm ci && npm run build && find packages -name \"node_modules\" -exec rm -rf {} \\; || true)",

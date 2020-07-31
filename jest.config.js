@@ -5,7 +5,8 @@ module.exports = {
     '<rootDir>/node_modules/',
     '<rootDir>/coverage/',
   ],
-  moduleDirectories: ['node_modules', './'],
+  moduleDirectories: ['node_modules'],
+  modulePathIgnorePatterns: ['<rootDir>/backpack', '<rootDir>/package.json'],
   testRegex: '.*\\.test\\.js$',
   setupFilesAfterEnv: ['<rootDir>/config/jest/jest-dom-extend-expect'],
   moduleNameMapper: {

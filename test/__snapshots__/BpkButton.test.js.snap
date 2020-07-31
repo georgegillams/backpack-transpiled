@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BpkButton /> should render correctly 1`] = `
+<div>
+  <button
+    class="bpk-button"
+    type="button"
+  >
+    This is a button
+  </button>
+</div>
+`;

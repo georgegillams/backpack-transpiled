@@ -38,11 +38,15 @@ const cssFiles = execSync('find dist -name "*.css" | grep -v node_modules')
   .split('\n')
   .filter(s => s !== '');
 
-const updatePromises = cssFiles.map(cF =>
-  removeNoTouchSupport(cF, findReplaces),
-);
+const updatePromises = cssFiles.map(cF => removeNoTouchSupport(cF, findReplaces));
 
-Promise.all(updatePromises).then(() => {
-  console.log('All good.  👍');
-  process.exit(0);
-});
+Promise.all(updatePromises)
+  .then(() => {
+    console.log('All good.  👍');
+    process.exit(0);
+    return true;
+  })
+  .catch(err => {
+    console.error(err);
+    process.exit(1);
+  });

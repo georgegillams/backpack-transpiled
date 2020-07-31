@@ -30,16 +30,20 @@ console.log('');
 
 const findReplaces = [{ find: '.scss', replace: '.css' }];
 
-const jsFiles = execSync(
-  'find dist -name "*.js" -o -name "*.jsx" | grep -v node_modules',
-)
+const jsFiles = execSync('find dist -name "*.js" -o -name "*.jsx" | grep -v node_modules')
   .toString()
   .split('\n')
   .filter(s => s !== '');
 
 const updatePromises = jsFiles.map(jF => updateImports(jF, findReplaces));
 
-Promise.all(updatePromises).then(() => {
-  console.log('All good.  👍');
-  process.exit(0);
-});
+Promise.all(updatePromises)
+  .then(() => {
+    console.log('All good.  👍');
+    process.exit(0);
+    return true;
+  })
+  .catch(err => {
+    console.error(err);
+    process.exit(1);
+  });

@@ -52,7 +52,7 @@
     "eslint": "^7.5.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-config-skyscanner-with-prettier": "^0.8.0",
+    "eslint-config-skyscanner-with-prettier": "^1.0.0",
     "eslint-import-resolver-webpack": "^0.12.2",
     "eslint-plugin-flowtype": "^5.2.0",
     "eslint-plugin-import": "^2.22.0",

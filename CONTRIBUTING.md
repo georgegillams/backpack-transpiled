@@ -7,7 +7,6 @@ You should have node installed. You can find the best node version to use in [.n
 ### Running locally
 
 ```
-npm run preinstall
 npm ci
 ```
 
@@ -63,4 +62,3 @@ Before testing, the [Pull](#pull) and [Transpilation](#transpilation) steps abov
 
 Run `npm run test`. This will use the built files in `./backpack-transpiled` as the `backpack-transpiled` dependency for the tests.
 
-Note this will add a dependency to the `package.json` file. This change should **not** be checked in.

@@ -2,6 +2,36 @@
 
 [Unreleased changes](./UNRELEASED.yaml).
 
+# 2020-08-07
+
+**Added**:
+  - bpk-component-accordion: 2.1.77
+  - bpk-component-breakpoint: 2.00.74
+  - bpk-component-paragraph: 2.0.74
+  - bpk-component-radio: 2.0.74
+  - bpk-component-star-rating: 2.1.72
+  - bpk-component-table: 2.0.74
+  - bpk-component-textarea: 2.0.74
+    - Added Flow.
+
+# 2020-08-06
+
+**Fixed:**
+  - bpk-svgs:
+    - Fixed an issue with the `filter` icon that caused it to render incorrectly when used via the `BpkIcon` font.
+
+# 2020-08-05 - Added Flow support.
+
+**Added:**
+  - bpk-component-autosuggest: 4.0.74 => 4.1.0
+  - bpk-component-card: 2.0.71 => 2.1.0
+  - bpk-component-checkbox: 2.1.23 => 2.2.0
+  - bpk-component-heading: 3.0.71 => 3.1.0
+  - bpk-component-link: 2.0.71 => 2.1.0
+  - bpk-component-loading-button: 3.1.24 => 3.2.0
+  - bpk-component-spinner: 3.0.71 => 3.1.0
+    - Added Flow.
+
 # 2020-08-03 - New chip component
 
 **Breaking:**

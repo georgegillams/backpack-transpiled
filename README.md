@@ -6,6 +6,10 @@
 
 Scripts used to publish a transpiled version of Skyscanner's Backpack design-system components.
 
+## Support
+
+This is **not** an official Skyscanner project. It is provided "as-is", with no guarantee of support.
+
 ## Why?
 
 Skyscanner's web components (for React) are published untranspiled. This is fine internally because we have a custom set of react-scripts that handle ES6 syntax and SASS files, but projects outside Skyscanner might not want to use [backpack-react-scripts](https://github.com/skyscanner/backpack-react-scripts/) or set up custom bundler rules.

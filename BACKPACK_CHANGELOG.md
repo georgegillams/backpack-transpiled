@@ -2,6 +2,25 @@
 
 [Unreleased changes](./UNRELEASED.yaml).
 
+# 2020-09-30 - Flow type fix for horizontal nav
+
+**Fixed:**
+  - bpk-component-horizontal-nav:
+    - Fixed flow types for scroller ref by removing needless `$FlowIgnore`s.
+
+# 2020-09-29 - README clarification on `BpkChip`
+
+**Fixed:**
+  - bpk-component-chip: 4.0.10 => 4.0.11
+    - Updated docs on usage of component.
+
+# 2020-09-25 - New `onOpenChange` prop for calendar.
+
+**Added:**
+ - bpk-component-datepicker: 11.2.40 => 11.3.0
+   - New `onOpenChange` prop which is a callback method that will be called when the date picker open state changes
+   - The isOpen state can be updated through the isOpen prop
+
 # 2020-09-21 - Fixed incorrect flow typing.
 
 **Fixed:**

@@ -2,6 +2,19 @@
 
 [Unreleased changes](./UNRELEASED.md).
 
+# 2020-10-20
+
+**Breaking:**
+- bpk-tokens:
+  - `borderRadiusSm` for Android and iOS has changed from `4` to `8`.
+
+# 2020-10-13 - New overlay component
+
+**Added:**
+
+- bpk-component-overlay: 1.0.0
+  - New `BpkOverlay` component, used for adding tints to backgrounds. See https://backpack.github.io/components/overlay?platform=web for more.
+
 # 2020-10-12 - New radius changes
 
 **Added:**

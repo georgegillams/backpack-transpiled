@@ -2,6 +2,27 @@
 
 [Unreleased changes](./UNRELEASED.md).
 
+# 2020-11-12
+
+**Added:**
+
+ - bpk-component-chip: 4.0.19 => 4.1.0
+   - Added theming support. Please refer to the [readme](https://github.com/Skyscanner/backpack/blob/master/packages/bpk-component-chip/README.md) for a complete list of theming properties.
+
+
+# 2020-11-09
+
+**Fixed:**
+
+ - bpk-component-nudger: 2.0.92 => 2.0.93
+   - Fixed use of internal props that generated console warnings due to their unneeded usage
+
+# 2020-11-04
+
+**Added:**
+ - bpk-component-button: 3.2.67 => 3.3.0
+   - `BpkButtonLink` now has a `padded` prop (false by default) which increases the tappable/clickable area around link style buttons to make them easier to interact with. Enabling this will improve accessibility and SEO.
+
 # 2020-10-27
 
 **Breaking:**

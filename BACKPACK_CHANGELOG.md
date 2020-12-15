@@ -2,6 +2,17 @@
 
 [Unreleased changes](./UNRELEASED.md).
 
+# 2020-12-11
+
+**Fixed:**
+ - bpk-component-close-button:
+   - Fixed the size of focus indicators in Chrome so that they don't touch the close icon.
+
+# 2020-12-10
+
+**Added:**
+ - bpk-component-skip-link:
+   - New skip-link component that helps screen-reader users and keyboard-only users navigate faster.
 # 2020-12-04
 
 **Fixed:**

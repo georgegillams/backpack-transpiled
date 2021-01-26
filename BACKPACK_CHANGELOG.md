@@ -2,6 +2,49 @@
 
 [Unreleased changes](./UNRELEASED.md).
 
+# 2021-01-21
+
+**Fixed**
+- bpk-svgs: 12.3.0 => 12.3.1
+  - Corrected the socially-distanced icon for the iOS font.
+
+- bpk-tokens: 36.1.0 => 36.1.1
+  - Removed Arial to fix fonts for different locales rendering.
+
+# 2021-01-18
+
+**Fixed:**
+
+- bpk-component-datatable: 2.2.0 => 2.2.1
+  - Fixed issue where `rowCount` does not update when props have changed.
+
+# 2021-01-15
+
+**Added:**
+
+- bpk-component-datatable: 2.1.0 => 2.2.0
+  - `rowClassName` can be a function like in react-virtualized Table.
+
+# 2021-01-14
+
+**Breaking:**
+
+- bpk-component-autosuggest: 4.1.29 => 5.0.0
+  - Downgraded `react-autosuggest` to `v9.4.3` to ensure compatibility with older versions of React.
+
+**Added:**
+- bpk-component-datatable: 2.0.58 => 2.1.0
+  - Passing `sort`, `sortBy` and `sortDirection` as props leaves all the sorting to the underlying react-virtualized Table.
+  - Added flow types.
+
+# 2021-01-13
+
+**Added:**
+
+- bpk-svgs: 12.2.6 => 12.3.0
+- bpk-tokens: 36.0.4 => 36.1.0
+  - Added new semantic tokens for web for `Background`, `Text` and `Line`.
+
 # 2021-01-08
 
 **Fixed:**

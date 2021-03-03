@@ -2,6 +2,24 @@
 
 [Unreleased changes](./UNRELEASED.md).
 
+# 2021-02-24
+
+**Fixed:**
+ - bpk-svgs: 12.3.3 => 12.3.4
+   - Fixed the beer, breakfast and cafe icons for iOS.
+
+# 2021-02-24
+
+**Fixed:**
+ - bpk-svgs: 12.3.2 => 12.3.3
+   - Fixed the price-tag and social-distancing icons for iOS.
+
+# 2021-02-23
+
+**Fixed:**
+ - bpk-svgs: 12.3.1 => 12.3.2
+   - Fixed the baggage icons for iOS.
+
 # 2021-02-22
 
 **Breaking:**

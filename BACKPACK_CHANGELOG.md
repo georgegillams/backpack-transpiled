@@ -2,6 +2,18 @@
 
 [Unreleased changes](./UNRELEASED.md).
 
+# 2021-03-08
+
+**Added:**
+  - bpk-svgs: 12.3.6 => 12.4.0
+    - Added new `undo` and `redo` icons.
+
+**Fixed:**
+  - bpk-svgs: 12.3.5 => 12.3.6
+    - Fixed the following icons to be rounded: 
+      - `call-back`, `depart`, `direct`, `download`, `logout`, `long-arrow-down`, `long-arrow-left`, `long-arrow-right`, `long-arrow-up`, `share--ios`, `sort`, `stops`, `swap--horizontal`, `swap--vertical`, `swap`, `trend--steady`.
+
+
 # 2021-02-24
 
 **Fixed:**

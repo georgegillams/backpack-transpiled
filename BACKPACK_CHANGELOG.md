@@ -2,6 +2,36 @@
 
 [Unreleased changes](./UNRELEASED.md).
 
+# 2021-03-23
+
+**Added:**
+- bpk-svgs:
+  - New `center-location` icon.
+
+# 2021-03-18
+
+**Fixed:**
+  - bpk-component-slider: 2.0.117 => 2.0.118
+    - Improved controls colour contrast.
+  - bpk-component-datepicker: 11.3.43 => 11.3.44
+    - Remove `readOnly` prop from input as it is already set by the `withOpenEvents` HOC.
+  - bpk-component-input: 5.0.116 => 5.0.117
+    - Fix input not being able to open on Android devices when rendered with `withOpenEvents`.
+# 2021-03-11
+
+**Breaking:**
+
+- bpk-component-tooltip: 4.1.65 => 5.0.1
+  - Added a required `ariaLabel` prop to improve accessibility. You **must** include this prop to describe the tooltip's content to assistive technologies. See [the documentation](https://backpack.github.io/components/tooltip/?platform=web#readme) for more information.
+
+**Fixed:**
+
+- bpk-component-calendar: 7.0.71 => 7.0.72
+  - A change from selectedDate from `Date` -> `null` is reflected in focussed date
+
+- bpk-component-chip: 4.1.22 => 4.1.23
+  - Fixed an A11y issue with `BpkDismissibleChip` when `role="button"`, `aria-checked` was applied.
+
 # 2021-03-08
 
 **Added:**
@@ -10,7 +40,7 @@
 
 **Fixed:**
   - bpk-svgs: 12.3.5 => 12.3.6
-    - Fixed the following icons to be rounded: 
+    - Fixed the following icons to be rounded:
       - `call-back`, `depart`, `direct`, `download`, `logout`, `long-arrow-down`, `long-arrow-left`, `long-arrow-right`, `long-arrow-up`, `share--ios`, `sort`, `stops`, `swap--horizontal`, `swap--vertical`, `swap`, `trend--steady`.
 
 

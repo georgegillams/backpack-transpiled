@@ -1,3 +1,34 @@
+# 2021-04-12
+
+**Fixed:**
+- bpk-component-card: 2.1.44 => 2.1.45
+  - Fixed an issue that prevented accessing a card with a keyboard.
+
+# 2021-04-12
+
+**Fixed:**
+- bpk-component-calendar: 7.1.2 => 7.1.3
+- bpk-component-datepicker: 11.3.50 => 11.3.51
+- bpk-component-scrollable-calendar: 2.0.127 => 2.0.128
+  - Fixed an issue when AT changed the month from the calendar navigation drop down, users could not navigate dates outside the current week.
+
+# 2021-04-09
+
+**Added:**
+- bpk-react-utils: 3.0.13 => 3.1.0
+  - Extracted out and added new functions `isDeviceIphone`, `isDeviceIpad` and `isDeviceIos`, to enable detection if device is iOS to apply platform specific behaviour.
+
+**Fixed:**
+- bpk-component-modal: 2.1.125 => 2.1.126
+  - Fixed an RTL bug where the close button had additional spacing on the left.
+  - Changed default property `isIphone` to use the `bpk-react-utils` function.
+
+- bpk-scrim-utils: 4.0.113 => 4.0.114
+  - Changed default properties `isIphone` and `isIpad` to use the `bpk-react-utils` function.
+
+- bpk-mixins: 20.1.30 => 20.1.31
+  - Fixed docs for `bpk-margin-leading` and `bpk-margin-trailing` mixins - where the default value for `$resetOppositeMargin` was stated as `false` instead of `true`.
+
 # 2021-04-03
 
 **Fixed:**

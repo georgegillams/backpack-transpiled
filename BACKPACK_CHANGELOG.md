@@ -1,3 +1,23 @@
+# 2021-04-20
+
+**Fixed:**
+
+- bpk-component-card: 2.2.0 => 2.2.1
+  - Changed non-atomic role to `group` to ensure the link is not exposed to AT.
+
+# 2021-04-19
+
+**Added:**
+
+- bpk-component-card: 2.1.47 => 2.2.0
+  - New `atomic` prop which can be set false to make the card appear to AT as a simple container.
+
+# 2021-04-13
+
+**Fixed:**
+- bpk-component-modal: 2.1.126 => 2.1.127
+  - Fixed square appearance of the modal top corners.
+
 # 2021-04-12
 
 **Fixed:**

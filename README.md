@@ -36,31 +36,11 @@ return (<BpkButton>Test</BpkButton>);
 
 To use this in Next.js there are a couple of additional steps needed.
 
-Install `@zeit/next-css` and `next-transpile-modules`.
+Install `css-loader`, `mini-css-extract-plugin`, `next-transpile-modules` and `webpack`.
 
-Create a file called `next.config.js` and add the following:
+(If your next project is using webpack 4, make sure you install a version of webpack 4).
 
-```
-const withCSS = require("@zeit/next-css");
-const nextTranspileModules = require("next-transpile-modules");
-
-const withTM = nextTranspileModules(["backpack-transpiled"]);
-
-const nextConfig = {
-  // Add your own config here if you want
-};
-
-module.exports = withTM(
-  withCSS({
-    cssModules: true,
-    cssLoaderOptions: {
-      url: false,
-      localIdentName: "[local]___[hash:base64:5]",
-    },
-    ...nextConfig,
-  })
-);
-```
+Download [`next.config.js`](http://github.com/georgegillams/backpack-transpiled/tree/main/examples/next.config.js) and place it at the top of your project:
 
 Installing and using `backpack-transpiled` should now work as it would in a vanilla create-react-app.
 

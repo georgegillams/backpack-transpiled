@@ -1,3 +1,39 @@
+# 2021-05-11
+
+**Fixed:**
+  - bpk-svgs: 12.6.0 -> 12.6.1
+    - Updated `account--permit`, `baggage-tick`, `breakfast-tick` and `tick-circle` icon to improve tick appearance.
+
+
+# 2021-05-07
+
+**Fixed:**
+- bpk-scrim-utils: 4.1.0 => 4.1.1
+  - Compatibility with other build systems. E.g. `Next.js`
+
+
+# 2021-05-06
+
+**Added:**
+- Backpack compatibility with other build systems. E.g. `Next.js`
+
+**Changed:**
+- bpk-tether: 1.0.23 => 1.1.0
+  - Upgraded `tether` to `2.0.0`.
+
+# 2021-05-04
+
+**Breaking:**
+- bpk-component-calendar: `8.0.0`
+- bpk-component-datepicker: `12.0.0`
+- bpk-component-scrollable-calendar: `3.0.0`
+  - Upgraded from `date-fns@^1.29.0` to `date-fns@^2.21.1`. Ensure that anywhere you are using `date-fns` with these components uses syntax and functions compatible with this version. For more information and help with upgrading, see the [`date-fns` changelog](https://github.com/date-fns/date-fns/blob/master/CHANGELOG.md#200---2019-08-20).
+
+**Changed:**
+- bpk-component-barchart: `3.1.48`
+  - Upgraded `d3-scale` and `d3-path` to latest versions.
+
+
 # 2021-04-29
 
 **Added:**

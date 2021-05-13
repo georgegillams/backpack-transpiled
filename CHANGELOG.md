@@ -2,6 +2,18 @@
 
 **Note:** For changes to the actual Backpack library, please refer to [the Backpack CHANGELOG snapshot](https://github.com/georgegillams/backpack-transpiled/blob/main/BACKPACK_CHANGELOG.md).
 
+## 3.0.1
+
+- Release process now renames CSS files from `*.module.css` to `*.css` to preserve non-css module behaviour.
+
+## 3.0.0
+
+- No changes other than those pulled in from [Backpack](https://github.com/Skyscanner/backpack).
+
+## 2.4.0
+
+- No changes other than those pulled in from [Backpack](https://github.com/Skyscanner/backpack).
+
 ## 0.0.7
 
 - No changes other than those pulled in from [Backpack](https://github.com/Skyscanner/backpack).

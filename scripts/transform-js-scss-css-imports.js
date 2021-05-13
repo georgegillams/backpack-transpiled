@@ -28,7 +28,7 @@ const updateImports = (file, findReplaces) =>
 console.log('Crunching import paths...');
 console.log('');
 
-const findReplaces = [{ find: '.scss', replace: '.css' }];
+const findReplaces = [{ find: '.module.scss', replace: '.css' }];
 
 const jsFiles = execSync('find dist -name "*.js" -o -name "*.jsx" | grep -v node_modules')
   .toString()

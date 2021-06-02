@@ -7,7 +7,7 @@
     "pull-backpack": "npm run pull-backpack:clean && git clone https://github.com/Skyscanner/backpack.git && npm run pull-backpack:changelog && npm run pull-backpack:build",
     "pull-backpack:clean": "rimraf backpack",
     "pull-backpack:changelog": "cp ./backpack/CHANGELOG.md ./BACKPACK_CHANGELOG.md",
-    "pull-backpack:build": "(cd backpack && npm ci && npm run build && (find packages -name \"node_modules\" -exec rm -rf {} \\; || true))",
+    "pull-backpack:build": "(cd backpack && PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm ci && npm run build && (find packages -name \"node_modules\" -exec rm -rf {} \\; || true))",
     "prerelease": "npm run transpile",
     "release": "npm run release:checks && babel-node scripts/release.js",
     "release:major": "npm run release -- --major",

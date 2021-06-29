@@ -1,3 +1,29 @@
+# 2021-06-28
+
+**Fixed:**
+
+- bpk-component-banner-alert:
+  - Updated role attribute for expandable alerts.
+- bpk-component-mobile-scroll-container:
+  - Scrollbars are now correctly hidden in Firefox.
+
+
+# 2021-06-24
+
+**Fixed:**
+
+- bpk-stylesheets: 7.0.0 => 7.0.1
+  - Updated to new fixed Skyscanner Relative font
+
+
+# 2021-06-23
+
+**Fixed:**
+
+- bpk-component-banner-alert: 5.0.0 => 5.0.1
+  - Updated role attribute for expandable alerts
+
+
 # 2021-06-17
 
 **Fixed:**

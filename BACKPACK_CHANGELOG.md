@@ -1,3 +1,43 @@
+# 2021-07-30
+
+**Breaking:**
+- bpk-mixins: 21.0.4 => 22.0.0 
+- bpk-component-select: 4.0.4 => 5.0.0
+  - Updated select component and mixins to use the new spacing grid. The select component is now slightly larger due to the spacing changes. There are no breaking API changes, this change is only labelled as _Breaking_ to ensure you test your select components still look good at these new sizes.
+
+
+# 2021-07-30
+
+**Fixed:**
+- bpk-mixins: 21.0.3 => 21.0.4
+- bpk-component-checkbox: 3.0.5 => 3.0.6
+  - Fixed text alignment to checkbox to match correct spacing in Figma.
+
+# 2021-07-23
+
+**Fixed:**
+
+- bpk-component-slider: 3.0.4 => 3.0.5
+  - Upgraded the slider component to use the new spacing system. The component may appear larger in size, so please test to ensure this does not affect your usage.
+
+- bpk-component-switch: 2.0.3 => 2.0.4
+  - Updated `BpkSwitch` to use new spacing system by default.
+
+# 2021-07-20
+
+**Fixed**
+
+- bpk-component-breakpoint: 3.0.3 => 3.0.4
+  - Updated `react-responsive` dependency to 6.1.2. This requires a minimum React version of 16.3.0 as it migrates some life cycle methods to their `UNSAFE_` names.
+
+
+# 2021-07-16
+
+**Fixed:**
+  - bpk-component-table: 3.0.2 => 3.0.3
+  - bpk-mixins: 21.0.2 => 21.0.3
+    - Update table to use new spacing tokens. Visually this component will appear larger so may change any visual tests you are running.
+
 # 2021-07-12
 
 **Fixed:**

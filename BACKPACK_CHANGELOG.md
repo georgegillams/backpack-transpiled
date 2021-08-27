@@ -1,9 +1,65 @@
+# 2021-08-19
+
+**Changed:**
+
+- bpk-component-navigation-bar 3.0.9 => 3.0.10:
+  - Updated component to use new grid system. This component will appear slightly larger than before due to the new grid system.
+- bpk-component-progress 3.0.6 => 3.0.7:
+  - Updated component to use the new spacing grid and sizes. This component may now appear larger.
+- bpk-component-popover 4.0.13 => 4.0.14:
+  - Updating the popover component to use the new spacing grid.
+- bpk-component-paragraph 3.0.6 => 3.0.7:
+  - Updating the paragraph component to use the new spacing grid.
+
+# 2021-08-18
+
+**Fixed:**
+
+- bpk-component-nudger 4.0.5 => 4.0.6:
+  - Updating the nudger component to use the new spacing grid.
+
+# 2021-08-17
+
+**Changed:**
+
+- bpk-stylesheets: 7.0.7 => 7.1.0
+  - Updated to new fixed Skyscanner Relative font
+
+**Fixed:**
+
+- bpk-component-banner-alert: 5.0.14 => 5.0.15
+  - Fixed alignment of the alert icon to text.
+
+- bpk-component-breadcrumb: 3.0.8 => 3.0.9
+  - Fixed alignment of the breadcrumb arrows to text.
+
+- bpk-component-drawer: 4.0.8 => 4.0.9
+  - Fixed alignment issues with new font.
+
+- bpk-component-navigation-bar: 3.0.8 => 3.0.9
+  - Fixed alignment issues with new font.
+
+# 2021-08-12
+
+**Fixed:**
+
+- bpk-component-autosuggest: 6.0.12 => 6.0.13
+  - Fix tertiary label wrapping when using `hanzi` (Chinese characters) to make sure it won't occupy a large height.
+
+
+# 2021-08-11
+
+**Fixed:**
+
+- bpk-component-rating: 3.0.8 => 3.0.9
+  - Updating the rating component to use the new spacing functions. This change currently keeps the component to its original size.
+
 # 2021-08-06
 
 **Changed:**
 - bpk-component-spinner: 4.0.5 => 5.0.0
 - bpk-mixins: 22.0.0 => 22.0.1
-  - Updated spinner to use the new spacing grid. As the `sm` and `xl` spinner are now sized two pixels smaller this change is visually breaking so you should check the alignment when using the component. 
+  - Updated spinner to use the new spacing grid. As the `sm` and `xl` spinner are now sized two pixels smaller this change is visually breaking so you should check the alignment when using the component.
 
 **Fixed:**
 - bpk-component-barchart: 4.0.9 => 4.0.10
@@ -23,7 +79,7 @@
 # 2021-07-30
 
 **Breaking:**
-- bpk-mixins: 21.0.4 => 22.0.0 
+- bpk-mixins: 21.0.4 => 22.0.0
 - bpk-component-select: 4.0.4 => 5.0.0
   - Updated select component and mixins to use the new spacing grid. The select component is now slightly larger due to the spacing changes. There are no breaking API changes, this change is only labelled as _Breaking_ to ensure you test your select components still look good at these new sizes.
 
